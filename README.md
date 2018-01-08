@@ -1,0 +1,6 @@
+# WikiGame
+When the user opens the app, it displays the text from a random Wikipedia page. (You’re free to use any logic for grabbing text from a random Wiki page) The game requires a minimum of 10 lines of text on the screen. However, we want to show complete paragraphs of text to make it easier to understand the content displayed. Use the least number of paragraphs required to cross the 10 sentence limit.
+
+Once you have the content for the game, proceed to remove words from the text to create 10 blanks. (Each sentence can have at most one blank) Once the blanks are ready, we’re ready to begin the game! Display the complete text to the user, with clearly visible blanks (preferably not just white space) at the appropriate places.
+
+When the user taps / clicks on a blank, a list of all the 10 words are shown (shuffled, of course!) and the user can choose one of them. The UI updates to show that the user has filled up that blank. The user can tap / click a submit button once he’s done and the app shows him his score out of 10. If the user does not fill any particular blank, then he does not get points for it. Along with the user score, a button to “Replay” the game is displayed. Upon tapping / clicking it, the game begins again with another random Wikipedia page.
