@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA1E5E8A54F5FEA5D7D3A35 /* Pods_WikiGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00833031D51CECF4C2DF7DD2 /* Pods_WikiGame.framework */; };
+		B74C6B852001219E00F1A355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74C6B842001219E00F1A355 /* AppDelegate.swift */; };
+		B74C6B872001219E00F1A355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74C6B862001219E00F1A355 /* ViewController.swift */; };
+		B74C6B8A2001219F00F1A355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74C6B882001219F00F1A355 /* Main.storyboard */; };
+		B74C6B8C2001219F00F1A355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B74C6B8B2001219F00F1A355 /* Assets.xcassets */; };
+		B74C6B8F2001219F00F1A355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74C6B8D2001219F00F1A355 /* LaunchScreen.storyboard */; };
+		B7B80BC720012A5700640A48 /* ModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B80BC620012A5700640A48 /* ModelClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00833031D51CECF4C2DF7DD2 /* Pods_WikiGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WikiGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74C6B812001219E00F1A355 /* WikiGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74C6B842001219E00F1A355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B74C6B862001219E00F1A355 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B74C6B892001219F00F1A355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B74C6B8B2001219F00F1A355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B74C6B8E2001219F00F1A355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B74C6B902001219F00F1A355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B80BC620012A5700640A48 /* ModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelClass.swift; sourceTree = "<group>"; };
+		EE9E6F0FD317FE4F824510C2 /* Pods-WikiGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WikiGame/Pods-WikiGame.debug.xcconfig"; sourceTree = "<group>"; };
+		FAF41115F0E858A47553DEF9 /* Pods-WikiGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-WikiGame/Pods-WikiGame.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B74C6B7E2001219E00F1A355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA1E5E8A54F5FEA5D7D3A35 /* Pods_WikiGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A9CAECD261C56A96080FC07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE9E6F0FD317FE4F824510C2 /* Pods-WikiGame.debug.xcconfig */,
+				FAF41115F0E858A47553DEF9 /* Pods-WikiGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B74C6B782001219D00F1A355 = {
+			isa = PBXGroup;
+			children = (
+				B74C6B832001219E00F1A355 /* WikiGame */,
+				B74C6B822001219E00F1A355 /* Products */,
+				5A9CAECD261C56A96080FC07 /* Pods */,
+				FE2D984D15A67F7BFA4ADC77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B74C6B822001219E00F1A355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B74C6B812001219E00F1A355 /* WikiGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B74C6B832001219E00F1A355 /* WikiGame */ = {
+			isa = PBXGroup;
+			children = (
+				B7B80BC520012A2D00640A48 /* Model */,
+				B74C6B842001219E00F1A355 /* AppDelegate.swift */,
+				B74C6B862001219E00F1A355 /* ViewController.swift */,
+				B74C6B882001219F00F1A355 /* Main.storyboard */,
+				B74C6B8B2001219F00F1A355 /* Assets.xcassets */,
+				B74C6B8D2001219F00F1A355 /* LaunchScreen.storyboard */,
+				B74C6B902001219F00F1A355 /* Info.plist */,
+			);
+			path = WikiGame;
+			sourceTree = "<group>";
+		};
+		B7B80BC520012A2D00640A48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7B80BC620012A5700640A48 /* ModelClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE2D984D15A67F7BFA4ADC77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00833031D51CECF4C2DF7DD2 /* Pods_WikiGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B74C6B802001219E00F1A355 /* WikiGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74C6B932001219F00F1A355 /* Build configuration list for PBXNativeTarget "WikiGame" */;
+			buildPhases = (
+				E419FA61CB755B84170AFE0E /* [CP] Check Pods Manifest.lock */,
+				B74C6B7D2001219E00F1A355 /* Sources */,
+				B74C6B7E2001219E00F1A355 /* Frameworks */,
+				B74C6B7F2001219E00F1A355 /* Resources */,
+				6AB95D4BCA8D10977DD718F4 /* [CP] Embed Pods Frameworks */,
+				C966F95D4773CCB807A95F09 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikiGame;
+			productName = WikiGame;
+			productReference = B74C6B812001219E00F1A355 /* WikiGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B74C6B792001219D00F1A355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Saurabh;
+				TargetAttributes = {
+					B74C6B802001219E00F1A355 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B74C6B7C2001219D00F1A355 /* Build configuration list for PBXProject "WikiGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B74C6B782001219D00F1A355;
+			productRefGroup = B74C6B822001219E00F1A355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B74C6B802001219E00F1A355 /* WikiGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B74C6B7F2001219E00F1A355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74C6B8F2001219F00F1A355 /* LaunchScreen.storyboard in Resources */,
+				B74C6B8C2001219F00F1A355 /* Assets.xcassets in Resources */,
+				B74C6B8A2001219F00F1A355 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AB95D4BCA8D10977DD718F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WikiGame/Pods-WikiGame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiGame/Pods-WikiGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C966F95D4773CCB807A95F09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiGame/Pods-WikiGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E419FA61CB755B84170AFE0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WikiGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B74C6B7D2001219E00F1A355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74C6B872001219E00F1A355 /* ViewController.swift in Sources */,
+				B7B80BC720012A5700640A48 /* ModelClass.swift in Sources */,
+				B74C6B852001219E00F1A355 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B74C6B882001219F00F1A355 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74C6B892001219F00F1A355 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B74C6B8D2001219F00F1A355 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74C6B8E2001219F00F1A355 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B74C6B912001219F00F1A355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B74C6B922001219F00F1A355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B74C6B942001219F00F1A355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9E6F0FD317FE4F824510C2 /* Pods-WikiGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VA678ZD73G;
+				INFOPLIST_FILE = WikiGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.osxkernel.WikiGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B74C6B952001219F00F1A355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF41115F0E858A47553DEF9 /* Pods-WikiGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VA678ZD73G;
+				INFOPLIST_FILE = WikiGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.osxkernel.WikiGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B74C6B7C2001219D00F1A355 /* Build configuration list for PBXProject "WikiGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74C6B912001219F00F1A355 /* Debug */,
+				B74C6B922001219F00F1A355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74C6B932001219F00F1A355 /* Build configuration list for PBXNativeTarget "WikiGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74C6B942001219F00F1A355 /* Debug */,
+				B74C6B952001219F00F1A355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B74C6B792001219D00F1A355 /* Project object */;
+}
